@@ -1,0 +1,2 @@
+time,model,mean_squared_error,mean_absolute_percentage_error,r2_score
+2022-04-18 15:21:04.035368,PersistanceModel(persist_colname=Close),7.544244932315044,0.020641326413900398,0.99166332719322

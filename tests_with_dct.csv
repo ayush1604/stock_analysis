@@ -1,0 +1,38 @@
+time,model,comment,mean_squared_error,mean_absolute_percentage_error,r2_score
+2022-04-20 23:24:50.780375,"Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('randomforestregressor', RandomForestRegressor())])",df10_dct_wota_90_1,8.36199336814555,0.02195921693952941,0.9891464769767402
+2022-04-20 23:27:17.082419,"Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('xgbregressor',
+                 XGBRegressor(base_score=0.5, booster='gbtree', callbacks=None,
+                              colsample_bylevel=1, colsample_bynode=1,
+                              colsample_bytree=1, early_stopping_rounds=None,
+                              enable_categorical=False, eval_metric=None,
+                              gamma=0, gpu_id=-1, grow_policy='depthwise',
+                              importance_type=None, interaction_constraints='',
+                              learning_rate=0.300000012, max_bin=256,
+                              max_cat_to_onehot=4, max_delta_step=0,
+                              max_depth=6, max_leaves=0, min_child_weight=1,
+                              missing=nan, monotone_constraints='()',
+                              n_estimators=100, n_jobs=0, num_parallel_tree=1,
+                              predictor='auto', random_state=0, reg_alpha=0,
+                              reg_lambda=1, ...))])",df10_dct_wota_90_1,10.067568475525215,0.024537064123836886,0.9869327107273717
+2022-04-20 23:46:07.508674,"Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('randomforestregressor', RandomForestRegressor())])",df10_dct_wota_90_1,8.221927611862892,0.02167578791070161,0.9894825619050103
+2022-04-20 23:50:49.517464,"Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('xgbregressor',
+                 XGBRegressor(base_score=0.5, booster='gbtree', callbacks=None,
+                              colsample_bylevel=1, colsample_bynode=1,
+                              colsample_bytree=1, early_stopping_rounds=None,
+                              enable_categorical=False, eval_metric=None,
+                              gamma=0, gpu_id=-1, grow_policy='depthwise',
+                              importance_type=None, interaction_constraints='',
+                              learning_rate=0.300000012, max_bin=256,
+                              max_cat_to_onehot=4, max_delta_step=0,
+                              max_depth=6, max_leaves=0, min_child_weight=1,
+                              missing=nan, monotone_constraints='()',
+                              n_estimators=100, n_jobs=0, num_parallel_tree=1,
+                              predictor='auto', random_state=0, reg_alpha=0,
+                              reg_lambda=1, ...))])",df10_dct_wota_90_1,10.585892466241429,0.024514796873427516,0.986458592929805
+2022-04-21 01:00:25.271703,"Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('randomforestregressor',
+                 RandomForestRegressor(n_estimators=400))])",df10_dct_wota_90_1,8.237839734152729,0.0217837210426951,0.9894622072182454

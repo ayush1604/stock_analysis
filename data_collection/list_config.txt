@@ -1,0 +1,6 @@
+{
+'period' : "max",
+'interval' : "1d",
+'start' : None,
+'end' : None
+}

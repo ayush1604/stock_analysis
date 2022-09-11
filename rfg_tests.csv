@@ -1,0 +1,11 @@
+time,model,comment,mean_squared_error,mean_absolute_percentage_error,r2_score
+2022-04-19 23:52:31.045773,"Pipeline(steps=[('selectfrommodel',
+                 SelectFromModel(estimator=Lasso(max_iter=4000))),
+                ('robustscaler', RobustScaler()),
+                ('randomforestregressor', RandomForestRegressor())])",df_30_1,8.922329866453758,0.022356264115386628,0.9885921553751191
+2022-04-20 18:05:36.212703,"Pipeline(steps=[('robustscaler', RobustScaler()),
+                ('randomforestregressor', RandomForestRegressor())])",df10_wavelet_30_1,8.313350004491468,0.02165512026959413,0.9894157786624135
+2022-04-20 21:55:46.568193,"Pipeline(steps=[('selectfrommodel', SelectFromModel(estimator=Lasso())),
+                ('robustscaler', RobustScaler()),
+                ('randomforestregressor',
+                 RandomForestRegressor(n_estimators=50))])",df30_wavelet_120_1,8.593630001597889,0.023230959812667634,0.9888503347321215
